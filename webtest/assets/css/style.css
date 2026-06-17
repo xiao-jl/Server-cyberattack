@@ -1,0 +1,87 @@
+body{
+    background:#000;
+    color:#00ff00;
+    font-family:Consolas,"Courier New",monospace;
+    margin:20px;
+}
+
+h1,h2,h3{
+    color:#00ff00;
+}
+
+a{
+    color:#00ff00;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#ffffff;
+}
+
+.panel{
+    border:1px solid #00ff00;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+input,textarea{
+    background:#111;
+    color:#00ff00;
+    border:1px solid #00ff00;
+}
+
+button{
+    background:#111;
+    color:#00ff00;
+    border:1px solid #00ff00;
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00ff00;
+    color:#000;
+}
+
+input{
+    width:300px;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+    background:#111;
+    color:#00ff00;
+    border:1px solid #00ff00;
+    font-family:Consolas,"Courier New",monospace;
+    outline:none;
+}
+
+input:focus{
+    box-shadow:0 0 10px #00ff00;
+}
+
+button{
+    background:#111;
+    color:#00ff00;
+    border:1px solid #00ff00;
+    padding:10px 20px;
+    cursor:pointer;
+    font-family:Consolas,"Courier New",monospace;
+}
+
+button:hover{
+    background:#00ff00;
+    color:#000;
+}
+
+form{
+    margin-top:20px;
+}
+
+hr{
+    border:1px solid #00ff00;
+}
+
+::selection{
+    background:#00ff00;
+    color:#000;
+}
